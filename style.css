@@ -11,13 +11,18 @@ body {
     display: flex;
     color: white;
     background-color: #1F2937;
+    justify-content: space-around;
+    padding: 10px 0;
 }
+
 ol {
     list-style: none;
     text-decoration: none;
     margin: 0;
     padding: 0;
     color: white;
+    display: flex;
+    gap: 25px;
 }
 
 .top-layer {
