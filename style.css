@@ -1,12 +1,9 @@
 body {
     display: flex;
     min-height: 100vh;
-    min-width: 100vh;
-    padding: 0
-    margin: 0
-    flex: auto;
-    flex-direction: column;
-   
+    padding: 0;
+    margin: 0;
+   flex-direction: column;
 }
 
 .header {
@@ -17,7 +14,7 @@ body {
 ol {
     list-style: none;
     text-decoration: none;
-    margin: 0
+    margin: 0;
     padding: 0;
     color: white;
 }
@@ -38,7 +35,7 @@ ol {
     color: black;
 }
 
-.fourth-layer {
+.four {
     background-color: white;
     color: black;
 }
@@ -47,5 +44,18 @@ ol {
     background-color:blue;
 }
 .footer {
+    color: white;
+    background-color: #1F2937;
 
+}
+
+.header,
+.top-layer,
+.second-layer,
+.third-layer,
+.fourth-layer,
+.footer {
+    flex-direction: row;
+    min-width: 100%;
+    flex-wrap: wrap;
 }
