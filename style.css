@@ -79,6 +79,7 @@ ol {
     flex-direction: row;
     min-width: 100%;
     flex: 1;
+    display: flex;
 }
 
 .cards div {
@@ -95,4 +96,29 @@ ol {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.third-layer * {
+    display: flex;
+}
+
+.pone {
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    Width: 300px;
+   
+}
+
+.ptwo {
+    justify-content: center;
+   
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+
 }
