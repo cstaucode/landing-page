@@ -75,7 +75,8 @@ ol {
 .third-layer,
 .fourth-layer,
 .footer,
-.cards {
+.cards,
+.four {
     flex-direction: row;
     min-width: 100%;
     flex: 1;
@@ -103,7 +104,7 @@ ol {
 }
 
 .pone {
-    justify-content: center;
+    justify-content: flex-end;
     align-self: center;
     flex-wrap: wrap;
     Width: 300px;
@@ -120,5 +121,14 @@ ol {
     justify-content: center;
     flex: 1;
     flex-direction: column;
+}
+
+.calltoaction {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    width: 350px;
+    justify-content: center;
+    align-self: center;
 
 }
