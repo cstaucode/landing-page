@@ -118,8 +118,9 @@ ol {
     background-color: #3882F6;
     color: white;
     display: flex;
-    flex: 0 0 600px;
+    flex: 0 0 700px;
     padding: 10px;
+    border-radius: 25px;
     
 }
 button {
@@ -129,17 +130,26 @@ button {
     border-radius: 10px;
     padding: 5px 18px;
 }
-
+#button {
+    justify-content: center;
+    align-items: center;
+}
 .calltoaction * {
     display: flex;
     flex-direction: column;
 }
-
-.calltoaction .actiontext {
-    flex-wrap: wrap;
-    flex: 0 0 80px;
-
+.actiontext {
+    flex: 0 0 10px;
 }
+
+#p1 {
+  margin: 0;
+}
+
+#p2 {
+  margin: 0;
+}
+
 .footer {
     display: flex;
     color: white;
