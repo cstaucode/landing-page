@@ -39,8 +39,21 @@ ol {
     padding: 30px;
 }
 
+h2 {
+  margin: 5px;
+}
 .toptext p {
     width: 400px;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0 0 8px 0;
+}
+
+.toptext h2 {
+    color:#f9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+
 }
 
 .top-layer button {
@@ -48,6 +61,7 @@ ol {
     color: white;
     border-radius: 10px;
     padding: 5px 18px;
+    border-color: #3882F6;
 }
 
 .second-layer {
@@ -60,7 +74,6 @@ ol {
 .cards {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     padding: 10px 10px 40px 10px;
     gap: 50px;
 }
