@@ -3,9 +3,8 @@ body {
     min-height: 100vh;
     padding: 0;
     margin: 0;
-   flex-direction: column;
-   flex: 1;
-   
+    flex-direction: column;
+    flex: 1;  
 }
 
 .header {
@@ -107,7 +106,7 @@ ol {
     justify-content: flex-end;
     align-self: center;
     flex-wrap: wrap;
-    Width: 300px;
+    Width: 400px;
    
 }
 
@@ -125,10 +124,19 @@ ol {
 
 .calltoaction {
     display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-    width: 350px;
-    justify-content: center;
-    align-self: center;
+    flex: 0 0 450px;
+    height: 20px;
 
+}
+
+.calltoaction * {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.four {
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
