@@ -44,8 +44,10 @@ ol {
 }
 
 .top-layer button {
-    background-color: blue;
+    background-color: #3882F6;
     color: white;
+    border-radius: 10px;
+    padding: 5px 18px;
 }
 
 .second-layer {
@@ -61,6 +63,11 @@ ol {
     flex-wrap: wrap;
     padding: 10px 10px 40px 10px;
     gap: 50px;
+}
+
+.cards img {
+  border: 3px solid #3882F6;
+  border-radius: 25px;
 }
 
 .cards div {
@@ -108,19 +115,31 @@ ol {
 }
 
 .calltoaction {
-    background-color:blue;
+    background-color: #3882F6;
+    color: white;
     display: flex;
     flex: 0 0 600px;
     padding: 10px;
     
 }
+button {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    padding: 5px 18px;
+}
 
 .calltoaction * {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
+.calltoaction .actiontext {
+    flex-wrap: wrap;
+    flex: 0 0 80px;
+
+}
 .footer {
     display: flex;
     color: white;
