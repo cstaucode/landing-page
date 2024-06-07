@@ -82,6 +82,9 @@ h2 {
     background-color: white;
     justify-content: center;
     padding: 10px;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
 }
 
 .cards {
@@ -104,7 +107,7 @@ h2 {
 
 .third-layer {
     display: flex;
-    background-color: lightgray;
+    background-color: #E5E7EB;
     color: black;
     padding: 50px 10px;
 }
@@ -123,6 +126,9 @@ h2 {
     flex-wrap: wrap;
     Width: 400px;
     margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
    
 }
 
@@ -131,6 +137,8 @@ h2 {
     justify-content: center;
     margin: 0;
     padding-left: 260px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .four {
