@@ -34,6 +34,11 @@ ol {
     margin: 0 75px 0 0;
 }
 
+* a {
+    text-decoration: none;
+    color:#f9FAF8;
+}
+
 .logo {
  margin-left: 20px;
 }
