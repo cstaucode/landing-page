@@ -4,7 +4,7 @@ body {
     margin: 0;
     flex-direction: column;
     flex: 1; 
-    height: 1100px;
+    height: 1400px;
 }
 
 .header {
@@ -91,7 +91,7 @@ h2 {
     display: flex;
     justify-content: center;
     padding: 10px 10px 40px 10px;
-    gap: 50px;
+    gap: 70px;
 }
 
 .cards img {
@@ -147,15 +147,16 @@ h2 {
     color: black;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 400px;
     padding: 30px;
+
 }
 
 .calltoaction {
     background-color: #3882F6;
     color: white;
     display: flex;
-    flex: 0 0 700px;
+    flex: 0 1 700px;
     padding: 20px 40px;
     border-radius: 25px;
 }
@@ -178,6 +179,8 @@ button {
 
 #p1 {
   margin: 0;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 #p2 {
@@ -189,5 +192,7 @@ button {
     color: white;
     background-color: #1F2937;
     padding: 10px;
+    justify-content: center;
+    align-itmes: center;
 }
 
